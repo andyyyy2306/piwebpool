@@ -20,10 +20,10 @@ pause(){
 #note : liblua5.1 also include liblua5.1-dev which include the "include" necessary to compile lua for php
 #php5-gd is for image png generation
 #php5-curl is for connecting to donmoticz or any other system via JSON call
-echo "DOWNLOADING AND SETTING UP ALL NECESSARY PACKAGES"
-sudo apt-get update
-sudo apt-get --assume-yes install apache2 php php-mysql php-gd ssmtp mariadb-server10.0 lua5.1 liblua5.1 php-pear php-dev python-serial php-curl
-pause
+#echo "DOWNLOADING AND SETTING UP ALL NECESSARY PACKAGES"
+#sudo apt-get update
+#sudo apt-get --assume-yes install apache2 php php-mysql php-gd ssmtp mariadb-server10.0 lua5.1 liblua5.1 php-pear php-dev python-serial php-curl
+#pause
 #echo "watchdog setup"
 #sudo modprobe bcm2708_wdog
 #sudo update-rc.d watchdog defaults
